@@ -1,0 +1,10 @@
+{
+  "name": "job-roadmap-pilot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-isolation=none tests/core.test.mjs",
+    "validate": "python scripts/validate.py",
+    "preview": "python -m http.server 8765 --bind 127.0.0.1 --directory dist"
+  }
+}

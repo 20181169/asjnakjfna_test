@@ -1,0 +1,7 @@
+﻿claim_id,직업,검토할 문장,적용 범위,근거 URL,검토자 ID,산업,역할,관련 경력 연수,판정 정확 수정필요 범위제한 판단불가,수정안,수정 근거,누락 내용,검토일,반영 여부,반영 책임자
+analyst-c1,데이터 분석가,업무·재무·경제 데이터를 정리한 보고서를 작성한다.,미국 참고 직업의 업무 설명,https://www.onetonline.org/link/summary/15-2051.01,,,,,,,,,,,
+analyst-c2,데이터 분석가,BI 도구와 대시보드 등의 정보를 유지·갱신한다.,미국 참고 직업의 업무 설명,https://www.onetonline.org/link/summary/15-2051.01,,,,,,,,,,,
+engineer-c1,데이터 엔지니어,데이터 수집·적재·변환·추출의 처리 모델을 설계한다.,미국 참고 직업의 업무 설명,https://www.onetonline.org/link/summary/15-1243.01,,,,,,,,,,,
+engineer-c2,데이터 엔지니어,저장된 데이터의 구조·정확성·품질을 점검한다.,미국 참고 직업의 업무 설명,https://www.onetonline.org/link/summary/15-1243.01,,,,,,,,,,,
+researcher-c1,시장조사 분석가,경쟁사와 가격·판매 관련 자료를 수집하고 분석한다.,미국 참고 직업의 업무 설명,https://www.onetonline.org/link/summary/13-1161.00,,,,,,,,,,,
+researcher-c2,시장조사 분석가,마케팅·광고·커뮤니케이션 활동의 효과를 평가한다.,미국 참고 직업의 업무 설명,https://www.onetonline.org/link/summary/13-1161.00,,,,,,,,,,,

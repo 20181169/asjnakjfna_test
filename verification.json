@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-23",
+  "release": "pilot-0.1.0",
+  "checks": {
+    "core_tests": {"passed": 5, "command": "npm test"},
+    "data_validation": {"passed": true, "command": "npm run validate", "occupations": 3, "claims": 6, "sources": 3, "legacy_sources_quarantined": 1},
+    "browser": {"passed": true, "engine": "local Chrome headless", "desktop_width": 1440, "mobile_width": 390, "covered": ["search", "comparison", "required fields", "activity notes", "report snapshot", "local persistence", "feedback", "HTML escaping", "print to PDF", "CSV and JSON responses", "horizontal overflow", "runtime exceptions"]}
+  },
+  "not_completed": ["institution interviews", "domestic job posting ingestion", "expert review", "psychometric validation", "institution accounts and server persistence", "institution pilot evaluation"],
+  "data_scope": "O*NET US occupational references; provisional Korean occupation mappings; all expert reviews pending",
+  "privacy": "Browser-local optional storage; no application server submission or analytics"
+}

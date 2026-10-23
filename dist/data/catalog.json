@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "release": {
+    "version": "pilot-0.1.0",
+    "created_at": "2026-10-23",
+    "status": "prototype",
+    "expert_review_completed": false,
+    "public_information_release_allowed": false
+  },
+  "sources": [
+    {
+      "id": "onet-bi",
+      "title": "O*NET Business Intelligence Analysts",
+      "url": "https://www.onetonline.org/link/summary/15-2051.01",
+      "kind": "occupational_reference",
+      "region": "US",
+      "source_occupation_code": "15-2051.01",
+      "retrieved_at": "2026-10-23",
+      "published_at": null,
+      "updated_year": 2026,
+      "limitation": "미국 직업 분류의 참고 자료입니다. 국내 직업과의 대응은 잠정적이며 국내 채용 수요나 보편적인 근무 조건을 입증하지 않습니다.",
+      "storage_policy": "짧은 발췌와 자체 요약만 저장. 원문 전체를 재배포하지 않음."
+    },
+    {
+      "id": "onet-dw",
+      "title": "O*NET Data Warehousing Specialists",
+      "url": "https://www.onetonline.org/link/summary/15-1243.01",
+      "kind": "occupational_reference",
+      "region": "US",
+      "source_occupation_code": "15-1243.01",
+      "retrieved_at": "2026-10-23",
+      "published_at": null,
+      "updated_year": 2026,
+      "limitation": "미국 직업 분류의 참고 자료입니다. 국내 직업과의 대응은 잠정적이며 국내 채용 수요나 보편적인 근무 조건을 입증하지 않습니다.",
+      "storage_policy": "짧은 발췌와 자체 요약만 저장. 원문 전체를 재배포하지 않음."
+    },
+    {
+      "id": "onet-mr",
+      "title": "O*NET Market Research Analysts and Marketing Specialists",
+      "url": "https://www.onetonline.org/link/summary/13-1161.00",
+      "kind": "occupational_reference",
+      "region": "US",
+      "source_occupation_code": "13-1161.00",
+      "retrieved_at": "2026-10-23",
+      "published_at": null,
+      "updated_year": 2026,
+      "limitation": "미국 직업 분류의 참고 자료입니다. 국내 직업과의 대응은 잠정적이며 국내 채용 수요나 보편적인 근무 조건을 입증하지 않습니다.",
+      "storage_policy": "짧은 발췌와 자체 요약만 저장. 원문 전체를 재배포하지 않음."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "analyst-e1",
+      "source_id": "onet-bi",
+      "locator": "Tasks",
+      "excerpt": "Generate standard or custom reports summarizing business, financial, or economic data",
+      "excerpt_sha256": "1736b3cdf62a53e0f0f743b927cf0996b3d5304faf5d44420af7573b1438194a",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "analyst-e2",
+      "source_id": "onet-bi",
+      "locator": "Tasks",
+      "excerpt": "Maintain or update business intelligence tools, databases, dashboards, systems, or methods.",
+      "excerpt_sha256": "b357fb43fd8231cfe87a44ca90104d53b8a06293ca0e7bc7778940a987bd77df",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "engineer-e1",
+      "source_id": "onet-dw",
+      "locator": "Tasks",
+      "excerpt": "Develop data warehouse process models, including sourcing, loading, transformation, and extraction.",
+      "excerpt_sha256": "96218ccaf8dbfaa4cce3d94c5c366d5f792699fc71910e2d2f07f563c2fc5143",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "engineer-e2",
+      "source_id": "onet-dw",
+      "locator": "Tasks",
+      "excerpt": "Verify the structure, accuracy, or quality of warehouse data.",
+      "excerpt_sha256": "eaca8c3f42622779e5e53394b9a645c1b442b25a859b0a527590903864b6dd12",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "researcher-e1",
+      "source_id": "onet-mr",
+      "locator": "Tasks",
+      "excerpt": "Gather data on competitors and analyze their prices, sales",
+      "excerpt_sha256": "868542640f56c8109194ab2a02b0adf5702758d7c48989cd7541adc3e8c15365",
+      "retrieved_at": "2026-10-23"
+    },
+    {
+      "id": "researcher-e2",
+      "source_id": "onet-mr",
+      "locator": "Tasks",
+      "excerpt": "Measure the effectiveness of marketing, advertising, and communications programs and strategies.",
+      "excerpt_sha256": "bc1d0418dea070f87371d1d35bcde19e38dc11593c233af07b0edf85c1898f78",
+      "retrieved_at": "2026-10-23"
+    }
+  ],
+  "claims": [
+    {
+      "id": "analyst-c1",
+      "occupation_id": "analyst",
+      "category": "업무",
+      "statement": "업무·재무·경제 데이터를 정리한 보고서를 작성한다.",
+      "scope": "미국 참고 직업의 업무 설명",
+      "evidence_ids": [
+        "analyst-e1"
+      ],
+      "review_status": "pending",
+      "review_ids": [],
+      "confidence": null,
+      "frequency": null,
+      "version": "pilot-0.1.0"
+    },
+    {
+      "id": "analyst-c2",
+      "occupation_id": "analyst",
+      "category": "업무",
+      "statement": "BI 도구와 대시보드 등의 정보를 유지·갱신한다.",
+      "scope": "미국 참고 직업의 업무 설명",
+      "evidence_ids": [
+        "analyst-e2"
+      ],
+      "review_status": "pending",
+      "review_ids": [],
+      "confidence": null,
+      "frequency": null,
+      "version": "pilot-0.1.0"
+    },
+    {
+      "id": "engineer-c1",
+      "occupation_id": "engineer",
+      "category": "업무",
+      "statement": "데이터 수집·적재·변환·추출의 처리 모델을 설계한다.",
+      "scope": "미국 참고 직업의 업무 설명",
+      "evidence_ids": [
+        "engineer-e1"
+      ],
+      "review_status": "pending",
+      "review_ids": [],
+      "confidence": null,
+      "frequency": null,
+      "version": "pilot-0.1.0"
+    },
+    {
+      "id": "engineer-c2",
+      "occupation_id": "engineer",
+      "category": "업무",
+      "statement": "저장된 데이터의 구조·정확성·품질을 점검한다.",
+      "scope": "미국 참고 직업의 업무 설명",
+      "evidence_ids": [
+        "engineer-e2"
+      ],
+      "review_status": "pending",
+      "review_ids": [],
+      "confidence": null,
+      "frequency": null,
+      "version": "pilot-0.1.0"
+    },
+    {
+      "id": "researcher-c1",
+      "occupation_id": "researcher",
+      "category": "업무",
+      "statement": "경쟁사와 가격·판매 관련 자료를 수집하고 분석한다.",
+      "scope": "미국 참고 직업의 업무 설명",
+      "evidence_ids": [
+        "researcher-e1"
+      ],
+      "review_status": "pending",
+      "review_ids": [],
+      "confidence": null,
+      "frequency": null,
+      "version": "pilot-0.1.0"
+    },
+    {
+      "id": "researcher-c2",
+      "occupation_id": "researcher",
+      "category": "업무",
+      "statement": "마케팅·광고·커뮤니케이션 활동의 효과를 평가한다.",
+      "scope": "미국 참고 직업의 업무 설명",
+      "evidence_ids": [
+        "researcher-e2"
+      ],
+      "review_status": "pending",
+      "review_ids": [],
+      "confidence": null,
+      "frequency": null,
+      "version": "pilot-0.1.0"
+    }
+  ],
+  "occupations": [
+    {
+      "id": "analyst",
+      "name": "데이터 분석가",
+      "subtitle": "데이터로 문제를 해석하고 판단을 돕는 일",
+      "tags": [
+        "문제 해석",
+        "결과 전달"
+      ],
+      "mapping_note": "BI 분석가 업무의 일부를 데이터 분석가 탐색에 참고. 직업 전체의 일대일 대응은 아님.",
+      "source_id": "onet-bi",
+      "claim_ids": [
+        "analyst-c1",
+        "analyst-c2"
+      ],
+      "version": "pilot-0.1.0",
+      "status": "pilot_only",
+      "scenario": {
+        "title": "주문은 늘었는데, 왜 매출은 줄었을까?",
+        "context": "가상의 온라인 상점입니다. 지난주 주문은 100건, 매출은 500만 원입니다. 이번 주 주문은 120건, 매출은 480만 원입니다. 팀은 원인을 알고 싶어 합니다.",
+        "steps": [
+          "주문 수와 매출만으로 확인할 수 있는 사실을 적습니다.",
+          "객단가를 계산하고, 원인으로 단정할 수 없는 부분을 구분합니다.",
+          "추가로 필요한 데이터 두 가지와 팀에 설명할 문장 한 개를 씁니다."
+        ],
+        "deliverable": "관찰 사실·가설·추가 질문을 구분한 짧은 분석 메모",
+        "reflection": "답이 정해지지 않은 문제를 정리하고, 설명하는 과정은 어땠나요?",
+        "next_steps": [
+          "공개 표 데이터로 관찰 사실과 가설을 나누는 메모 작성",
+          "현직자에게 분석 결과가 실제 결정에 쓰인 사례 질문"
+        ],
+        "kind": "authored_exercise",
+        "expert_review_status": "pending",
+        "duration_minutes": 15,
+        "measures_aptitude": false
+      },
+      "unknowns": [
+        "국내 산업·경력별 업무 비중",
+        "자율성·반복성·협업 방식",
+        "만족 요인과 부담 요인의 대표성",
+        "국내 도구·자격·채용 요구 수준"
+      ]
+    },
+    {
+      "id": "engineer",
+      "name": "데이터 엔지니어",
+      "subtitle": "데이터가 정확하게 흐를 수 있도록 만드는 일",
+      "tags": [
+        "데이터 흐름",
+        "품질 확인"
+      ],
+      "mapping_note": "데이터웨어하우징 업무를 중심으로 한 참고. 데이터 엔지니어의 모든 역할을 포함하지 않음.",
+      "source_id": "onet-dw",
+      "claim_ids": [
+        "engineer-c1",
+        "engineer-c2"
+      ],
+      "version": "pilot-0.1.0",
+      "status": "pilot_only",
+      "scenario": {
+        "title": "같은 주문이 두 번 들어온다면?",
+        "context": "가상의 주문 자료입니다. A 파일에는 주문 101·102가, B 파일에는 주문 102·103이 있습니다. B 파일은 하루 늦게 도착했고 일부 날짜는 서로 다른 형식입니다.",
+        "steps": [
+          "주문을 중복 없이 합칠 기준을 정합니다.",
+          "날짜가 다르거나 누락된 경우의 처리 규칙을 씁니다.",
+          "새 파일이 내일 다시 도착했을 때 확인할 점을 적습니다."
+        ],
+        "deliverable": "데이터 통합 규칙과 품질 확인 목록",
+        "reflection": "눈에 잘 보이지 않는 오류를 예방하고 규칙을 세우는 과정은 어땠나요?",
+        "next_steps": [
+          "두 개의 작은 표를 합치는 규칙을 문서화",
+          "현직자에게 데이터 오류 발견과 대응 과정 질문"
+        ],
+        "kind": "authored_exercise",
+        "expert_review_status": "pending",
+        "duration_minutes": 15,
+        "measures_aptitude": false
+      },
+      "unknowns": [
+        "국내 산업·경력별 업무 비중",
+        "자율성·반복성·협업 방식",
+        "만족 요인과 부담 요인의 대표성",
+        "국내 도구·자격·채용 요구 수준"
+      ]
+    },
+    {
+      "id": "researcher",
+      "name": "시장조사 분석가",
+      "subtitle": "고객과 시장을 조사해 선택의 근거를 만드는 일",
+      "tags": [
+        "시장 조사",
+        "효과 확인"
+      ],
+      "mapping_note": "미국 시장조사·마케팅 전문직 분류의 일부 업무를 참고. 국내 산업별 범위 확인 필요.",
+      "source_id": "onet-mr",
+      "claim_ids": [
+        "researcher-c1",
+        "researcher-c2"
+      ],
+      "version": "pilot-0.1.0",
+      "status": "pilot_only",
+      "scenario": {
+        "title": "설문 응답만으로 신제품을 출시해도 될까?",
+        "context": "가상의 동아리 상품입니다. 기존 구매자 20명에게 설문을 했고 16명이 신제품에 관심을 보였습니다. 운영팀은 전체 학생에게 판매할지 고민합니다.",
+        "steps": [
+          "이 설문이 설명하는 대상과 설명하지 못하는 대상을 구분합니다.",
+          "출시 판단 전에 더 알아볼 질문 두 가지를 만듭니다.",
+          "추가 조사 대상과 조사 방법을 제안합니다."
+        ],
+        "deliverable": "조사 범위의 한계와 추가 조사 계획",
+        "reflection": "사람의 응답과 실제 행동의 차이를 생각해 보는 과정은 어땠나요?",
+        "next_steps": [
+          "서로 다른 응답자 집단을 고려한 설문 초안 작성",
+          "현직자에게 조사 결과가 제품 결정에 쓰인 과정 질문"
+        ],
+        "kind": "authored_exercise",
+        "expert_review_status": "pending",
+        "duration_minutes": 15,
+        "measures_aptitude": false
+      },
+      "unknowns": [
+        "국내 산업·경력별 업무 비중",
+        "자율성·반복성·협업 방식",
+        "만족 요인과 부담 요인의 대표성",
+        "국내 도구·자격·채용 요구 수준"
+      ]
+    }
+  ],
+  "reviews": []
+}

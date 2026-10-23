@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Job Roadmap pilot catalog",
+  "type": "object",
+  "required": ["schema_version", "release", "sources", "evidence", "claims", "occupations", "reviews"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "release": {"type": "object", "required": ["version", "status", "expert_review_completed", "public_information_release_allowed"], "properties": {"version": {"type": "string"}, "status": {"enum": ["prototype", "review", "published"]}, "expert_review_completed": {"type": "boolean"}, "public_information_release_allowed": {"type": "boolean"}}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["id", "title", "url", "kind", "region", "retrieved_at", "limitation"], "properties": {"id": {"type": "string"}, "url": {"type": "string", "format": "uri"}, "retrieved_at": {"type": "string", "format": "date"}}}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["id", "source_id", "locator", "excerpt", "excerpt_sha256", "retrieved_at"], "properties": {"excerpt": {"type": "string", "minLength": 1}, "excerpt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}}},
+    "claims": {"type": "array", "items": {"type": "object", "required": ["id", "occupation_id", "statement", "scope", "evidence_ids", "review_status", "review_ids", "version", "frequency"], "properties": {"statement": {"type": "string", "minLength": 1}, "scope": {"type": "string", "minLength": 1}, "evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}, "review_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}, "review_status": {"enum": ["pending", "changes_requested", "disputed", "approved"]}, "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1}, "frequency": {"type": ["object", "null"], "required": ["document_count", "corpus_document_count", "corpus_id", "method_version"], "properties": {"document_count": {"type": "integer", "minimum": 0}, "corpus_document_count": {"type": "integer", "minimum": 1}}}}}},
+    "occupations": {"type": "array", "items": {"type": "object", "required": ["id", "name", "mapping_note", "source_id", "claim_ids", "version", "status", "scenario", "unknowns"], "properties": {"claim_ids": {"type": "array", "items": {"type": "string"}}, "scenario": {"type": "object", "required": ["kind", "expert_review_status", "measures_aptitude"], "properties": {"kind": {"const": "authored_exercise"}, "measures_aptitude": {"const": false}}}}}},
+    "reviews": {"type": "array", "items": {"type": "object", "required": ["id", "claim_id", "claim_version", "reviewer_id", "reviewed_at", "decision", "industry", "role", "scope", "rationale"], "properties": {"decision": {"enum": ["approve", "revise", "scope_limit", "cannot_judge"]}}}}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "quarantined",
+  "reason": "원문 URL·문서 집합과 집계 과정을 재검증하기 전에는 국내 채용 중요도나 비율로 표시하지 않음.",
+  "records": [
+    {
+      "source_id": "legacy-repo-competencies",
+      "url": "https://github.com/seominse/job-roadmap-service/blob/e4e26b9802144d836c28b821573ad1efbba74402/01.%20%EC%A7%81%EC%97%85/06.%20IT%EA%B0%9C%EB%B0%9C%C2%B7%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D/01_%EA%B8%B0%EB%B3%B8%EC%A0%95%EB%B3%B4/%EA%B3%B5%ED%86%B5%EC%9A%94%EA%B5%AC%EC%97%AD%EB%9F%89.md",
+      "commit": "e4e26b9802144d836c28b821573ad1efbba74402",
+      "file_sha256": "1ef48ed99dadc3a8e89b15f3c474bc33c86487d0f6c5f88bdf1b7a3de4e1af84",
+      "source_kind": "derived_analysis",
+      "retrieved_at": "2026-10-23",
+      "original_document_ids": null,
+      "legacy_counts": [
+        {
+          "label": "비즈니스 이해 및 문제 정의",
+          "reported_document_count": 27,
+          "verified_document_count": null
+        },
+        {
+          "label": "업무 자동화",
+          "reported_document_count": 12,
+          "verified_document_count": null
+        },
+        {
+          "label": "데이터 전처리",
+          "reported_document_count": 10,
+          "verified_document_count": null
+        },
+        {
+          "label": "데이터 활용 시스템 구축",
+          "reported_document_count": 6,
+          "verified_document_count": null
+        },
+        {
+          "label": "의사결정 지원",
+          "reported_document_count": 6,
+          "verified_document_count": null
+        },
+        {
+          "label": "시각화 및 결과 전달",
+          "reported_document_count": 3,
+          "verified_document_count": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.openai/*.tar
+*.tar.gz
+__pycache__/
+node_modules/
+artifacts/
+outputs/
